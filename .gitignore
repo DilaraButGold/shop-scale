@@ -1,0 +1,33 @@
+# --- GENEL ---
+node_modules/
+npm-debug.log
+yarn-error.log
+.DS_Store
+.env
+
+# --- MICROSERVICES BUILD ---
+api-gateway/dist/
+auth-service/dist/
+product-service/dist/
+order-service/dist/
+notification-service/dist/
+
+# --- MOBILE (EXPO) ---
+mobile-shop/.expo/
+mobile-shop/dist/
+mobile-shop/web-build/
+mobile-shop/*.jks
+mobile-shop/*.keystore
+mobile-shop/android/app/build/
+mobile-shop/android/.gradle/
+mobile-shop/ios/Pods/
+mobile-shop/ios/build/
+
+# --- DOCKER VOLUMES ---
+postgres_data/
+mongo_data/
+rabbitmq_data/
+
+# --- IDE ---
+.vscode/
+.idea/
